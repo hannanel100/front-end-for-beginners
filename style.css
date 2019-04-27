@@ -1,0 +1,111 @@
+*{
+    font-size: 15px;
+    box-sizing: border-box;
+      
+}
+h1{
+    font-size: 2em;
+    color: rgb(142,40,0);
+    float: left;
+    width: 70%;
+}
+h2{
+    font-size:  1.75em;
+    border-bottom: 1px solid rgb(255,176,59);
+    color: rgb(182,73,38);
+}
+h3{
+    font-size: 1.5em;
+    color: rgb(70,137,102);
+}
+body{
+    margin: auto;
+    width: 800px;
+}
+nav ul li{
+   display: inline;
+   margin-right: 15px; 
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+nav ul li a{
+    display: inline-block;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: rgb(255,240,165);
+}
+nav ul li a:hover{
+    color: rgb(70,137,102);
+    background-color: rgb(255,240,165);
+}
+nav{
+    background-color: rgb(70, 137, 102);
+    margin: 15px 10px;;
+}
+main{
+    margin: 5px;
+}
+footer{
+    text-align: center;
+    
+}
+address{
+    font-style: normal;
+}
+sm{
+    font-size: 12px;
+}
+.book{
+    width: 30px;
+}
+form div label{
+    display: inline-block;
+    width: 130px;
+    padding-bottom: 20px;
+    font-size: 1.25em;
+    color: rgb(142,40,0);
+    font-weight: bold;
+    vertical-align: top;
+    }
+form div input{
+    height: 30px;
+}
+form div .inputs{
+    border: 1px solid rgb(142,40,0);
+}
+form div textarea:focus{
+    border: 1px solid rgb(255,176,59);
+}
+form div button{
+    background-color: rgb(70,137,102);
+    color:rgb(255,240,165);
+    width: 200px;
+    height: 50px;
+    
+}
+submit{
+    font-size: 20px;
+}
+.books-category{
+    float: left;
+    width: 70%;
+}
+.single-book{
+    float: left;
+    width: 30%;
+    overflow: hidden;
+    margin: 5px;
+}
+.right-boxes{
+    float: left;
+    width: 25%;
+    height: 100px;
+    
+
+}
+footer{
+    clear: both;
+}
